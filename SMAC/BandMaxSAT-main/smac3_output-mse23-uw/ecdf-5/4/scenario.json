@@ -1,0 +1,182 @@
+{
+    "name": "940f72896587a2af98cc0a0de489b117",
+    "deterministic": true,
+    "objectives": "cost",
+    "crash_cost": Infinity,
+    "termination_cost_threshold": Infinity,
+    "walltime_limit": Infinity,
+    "cputime_limit": 60000,
+    "trial_walltime_limit": null,
+    "trial_memory_limit": null,
+    "n_trials": 1000,
+    "use_default_config": false,
+    "instances": [
+        "/the/path/of/maxsat/ins/mse23-uw-new/judgment-aggregation-ja-slater-preflib-00049-00000451.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/inconsistency-measurement-im-hit-A-1-grd_2065_1_8.tgf.pl.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/inconsistency-measurement-im-sum-A-2-grd_1948_5_1.tgf.pl.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/reversi-rev66-28.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/judgment-aggregation-ja-slater-preflib-00049-00000468.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/optimizing-BDDs-splice-1-un-wcnf_incomplete_improved_1_2019_5.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/judgment-aggregation-ja-maxham-preflib-00049-00000385.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/decision-tree-breast-cancer-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_tree.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/treewidth-computation-TWComp_queen7_7_N49.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/judgment-aggregation-ja-maxham-preflib-00049-00000517.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_tree.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/reversi-rev66-32.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/optimizing-BDDs-vote-un-wcnf_incomplete_improved_1_2019_7.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/optimizing-BDDs-kr-vs-kp-un-wcnf_incomplete_improved_1_2019_4.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/inconsistency-measurement-im-hit-B-1-grd_3018_3_7.tgf.pl.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/MaxSATQueriesinInterpretableClassifiers-twitter_train_9_CNF_1_1.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/railway-transport-d4.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/tpr-b18-s_PathRelaxation_Set_FS_8.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/judgment-aggregation-ja-maxham-preflib-00049-00000293.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/SeanSafarpour-rsdecoder1_blackbox_KESblock-problem.dimacs_30.filtered.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/extension-enforcement-extension-enforcement_non-strict_stb_200_0.05_1_10_1.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/treewidth-computation-TWComp_1c75_N69.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/inconsistency-measurement-im-forgetting-A-2-grd_3908_2_1.tgf.pl.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/scheduling-cnf_small.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/atcoss-atcoss_sugar_15.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/inconsistency-measurement-im-hit-A-2-grd_1948_5_1.tgf.pl.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/decision-tree-kr-vs-kp-un-formula_0.8_2021_atleast_63_max-5_reduced_incomplete_tree.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/atcoss-atcoss_sugar_05.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/MaxSATQueriesinInterpretableClassifiers-twitter_train_2_CNF_4_1.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/decision-tree-hypothyroid-un-formula_0.8_2021_atleast_63_max-5_reduced_incomplete_tree.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/optimizing-BDDs-soybean-un-wcnf_incomplete_improved_1_2019_6.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/planning-bnn-cellda_x_10.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/judgment-aggregation-ja-maxham-preflib-00049-00000260.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/optimizing-BDDs-mushroom-un-wcnf_incomplete_improved_1_2019_5.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/inconsistency-measurement-im-forgetting-A-2-WS_300_16_70_30.tgf.pl.wcnf"
+    ],
+    "instance_features": null,
+    "min_budget": null,
+    "max_budget": null,
+    "seed": 4,
+    "n_workers": 1,
+    "_meta": {
+        "facade": {
+            "name": "AlgorithmConfigurationFacade"
+        },
+        "runner": {
+            "name": "TargetFunctionRunner",
+            "code": "b'\\x97\\x00t\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00|\\x01|\\x02|\\x03\\xa6\\x03\\x00\\x00\\xab\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00}\\x04|\\x04S\\x00'"
+        },
+        "model": {
+            "name": "RandomForest",
+            "types": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "bounds": [
+                [
+                    0,
+                    1.0
+                ],
+                [
+                    0,
+                    1.0
+                ],
+                [
+                    0,
+                    1.0
+                ],
+                [
+                    0,
+                    1.0
+                ],
+                [
+                    0,
+                    1.0
+                ]
+            ],
+            "pca_components": 4,
+            "n_trees": 10,
+            "n_points_per_tree": -1,
+            "ratio_features": 0.8333333333333334,
+            "min_samples_split": 3,
+            "min_samples_leaf": 3,
+            "max_depth": 20,
+            "eps_purity": 1e-08,
+            "max_nodes": 1048576,
+            "bootstrapping": true
+        },
+        "acquisition_maximizer": {
+            "name": "LocalAndSortedRandomSearch",
+            "acquisition_function": {
+                "name": "EI",
+                "xi": 0.0,
+                "log": false
+            },
+            "challengers": 5000,
+            "seed": 4,
+            "random_search": {
+                "name": "RandomSearch",
+                "acquisition_function": {
+                    "name": "EI",
+                    "xi": 0.0,
+                    "log": false
+                },
+                "challengers": 5000,
+                "seed": 4
+            },
+            "local_search": {
+                "name": "LocalSearch",
+                "acquisition_function": {
+                    "name": "EI",
+                    "xi": 0.0,
+                    "log": false
+                },
+                "challengers": 5000,
+                "seed": 4,
+                "max_steps": null,
+                "n_steps_plateau_walk": 10,
+                "vectorization_min_obtain": 2,
+                "vectorization_max_obtain": 64
+            }
+        },
+        "acquisition_function": {
+            "name": "EI",
+            "xi": 0.0,
+            "log": false
+        },
+        "intensifier": {
+            "name": "Intensifier",
+            "max_incumbents": 10,
+            "seed": 4
+        },
+        "initial_design": {
+            "name": "DefaultInitialDesign",
+            "n_configs": 50,
+            "n_configs_per_hyperparameter": 10,
+            "additional_configs": [],
+            "seed": 4
+        },
+        "random_design": {
+            "name": "ProbabilityRandomDesign",
+            "seed": 4,
+            "probability": 0.5
+        },
+        "runhistory_encoder": {
+            "name": "RunHistoryEncoder",
+            "considered_states": [
+                1,
+                2,
+                4
+            ],
+            "lower_budget_states": [],
+            "scale_percentage": 5,
+            "seed": 4
+        },
+        "multi_objective_algorithm": null,
+        "config_selector": {
+            "name": "ConfigSelector",
+            "retrain_after": 8,
+            "retries": 16,
+            "min_trials": 1
+        },
+        "version": "2.0.2"
+    },
+    "output_directory": "smac3_output/940f72896587a2af98cc0a0de489b117/4"
+}

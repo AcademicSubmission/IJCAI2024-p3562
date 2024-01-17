@@ -1,0 +1,53 @@
+{
+  "hyperparameters": [
+    {
+      "name": "armnum",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 10,
+      "upper": 30,
+      "default": 20,
+      "q": null
+    },
+    {
+      "name": "backward_step",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 10,
+      "upper": 30,
+      "default": 20,
+      "q": null
+    },
+    {
+      "name": "bms_num",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 5,
+      "upper": 25,
+      "default": 15,
+      "q": null
+    },
+    {
+      "name": "gamma",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.8,
+      "upper": 1.0,
+      "default": 0.9,
+      "q": null
+    },
+    {
+      "name": "lambda_",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.1,
+      "upper": 2.0,
+      "default": 1.05,
+      "q": null
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}

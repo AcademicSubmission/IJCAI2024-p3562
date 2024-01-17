@@ -1,0 +1,193 @@
+{
+    "name": "c3bbf5041effdb3c435f1424294b3103",
+    "deterministic": true,
+    "objectives": "cost",
+    "crash_cost": Infinity,
+    "termination_cost_threshold": Infinity,
+    "walltime_limit": Infinity,
+    "cputime_limit": 60000,
+    "trial_walltime_limit": null,
+    "trial_memory_limit": null,
+    "n_trials": 1000,
+    "use_default_config": false,
+    "instances": [
+        "/the/path/of/maxsat/ins/mse23-uw-new/MaxSATQueriesinInterpretableClassifiers-wdbc_train_9_CNF_5_1.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/gen-hyper-tw-GenHyperTW_s208.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/planning-bnn-navigation_5x5_10.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/planning-bnn-navigation_5x5_8.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/inconsistency-measurement-im-hit-B-3-stb_390_450.tgf.pl.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_tree.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/planning-bnn-cellda_y_10.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/inconsistency-measurement-im-contension-B-3-stb_696_368.tgf.pl.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/ramsey-ram_k3_n14.ra0.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/ramsey-ram_k4_n20.ra0.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/reversi-rev66-32.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/inconsistency-measurement-im-forgetting-T-2-grd_4383_1_10.tgf.pl.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/aes-mul_8_3.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/optimizing-BDDs-car-un-wcnf_incomplete_improved_1_2019_7.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/inconsistency-measurement-im-forgetting-B-3-stb_428_430.tgf.pl.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/reversi-rev66-26.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/gen-hyper-tw-GenHyperTW_grid4d_3.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/aes-mul_8_13.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/MaxSATQueriesinInterpretableClassifiers-twitter_train_2_CNF_4_1.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/optimizing-BDDs-vote-un-wcnf_incomplete_improved_1_2019_8.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/decision-tree-car-un-formula_0.8_2021_atleast_63_max-5_reduced_incomplete_tree.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/planning-bnn-navigation_4x4_7.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/min-fill-MinFill_R0_mulsol.i.2.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/planning-bnn-sysadmin_4_3.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/optimizing-BDDs-mushroom-un-wcnf_incomplete_improved_1_2019_5.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/inconsistency-measurement-im-forgetting-B-3-stb_457_193.tgf.pl.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/min-fill-MinFill_R1_games120.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/pseudoBoolean-normalized-par32-5.opb.msat.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/railway-transport-pesp_18Min.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/inconsistency-measurement-im-sum-C-1-grd_1222_5_4.tgf.pl.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/xai-mindset2-bnn-last-layer-f10.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/judgment-aggregation-ja-slater-preflib-00043-00000180.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/optimizing-BDDs-kr-vs-kp-un-wcnf_incomplete_improved_1_2019_4.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/decision-tree-heart-cleveland-un-formula_0.8_2021_atleast_63_max-5_reduced_incomplete_tree.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/inconsistency-measurement-im-hit-B-1-grd_3018_3_7.tgf.pl.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/decision-tree-australian-credit-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_tree.wcnf"
+    ],
+    "instance_features": null,
+    "min_budget": null,
+    "max_budget": null,
+    "seed": 0,
+    "n_workers": 1,
+    "_meta": {
+        "facade": {
+            "name": "AlgorithmConfigurationFacade"
+        },
+        "runner": {
+            "name": "TargetFunctionRunner",
+            "code": "b'\\x97\\x00t\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00|\\x01|\\x02|\\x03\\xa6\\x03\\x00\\x00\\xab\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00}\\x04|\\x04S\\x00'"
+        },
+        "model": {
+            "name": "RandomForest",
+            "types": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "bounds": [
+                [
+                    0,
+                    1.0
+                ],
+                [
+                    0,
+                    1.0
+                ],
+                [
+                    0,
+                    1.0
+                ],
+                [
+                    0,
+                    1.0
+                ],
+                [
+                    0,
+                    1.0
+                ],
+                [
+                    0,
+                    1.0
+                ],
+                [
+                    0,
+                    1.0
+                ]
+            ],
+            "pca_components": 4,
+            "n_trees": 10,
+            "n_points_per_tree": -1,
+            "ratio_features": 0.8333333333333334,
+            "min_samples_split": 3,
+            "min_samples_leaf": 3,
+            "max_depth": 20,
+            "eps_purity": 1e-08,
+            "max_nodes": 1048576,
+            "bootstrapping": true
+        },
+        "acquisition_maximizer": {
+            "name": "LocalAndSortedRandomSearch",
+            "acquisition_function": {
+                "name": "EI",
+                "xi": 0.0,
+                "log": false
+            },
+            "challengers": 5000,
+            "seed": 0,
+            "random_search": {
+                "name": "RandomSearch",
+                "acquisition_function": {
+                    "name": "EI",
+                    "xi": 0.0,
+                    "log": false
+                },
+                "challengers": 5000,
+                "seed": 0
+            },
+            "local_search": {
+                "name": "LocalSearch",
+                "acquisition_function": {
+                    "name": "EI",
+                    "xi": 0.0,
+                    "log": false
+                },
+                "challengers": 5000,
+                "seed": 0,
+                "max_steps": null,
+                "n_steps_plateau_walk": 10,
+                "vectorization_min_obtain": 2,
+                "vectorization_max_obtain": 64
+            }
+        },
+        "acquisition_function": {
+            "name": "EI",
+            "xi": 0.0,
+            "log": false
+        },
+        "intensifier": {
+            "name": "Intensifier",
+            "max_incumbents": 10,
+            "seed": 0
+        },
+        "initial_design": {
+            "name": "DefaultInitialDesign",
+            "n_configs": 70,
+            "n_configs_per_hyperparameter": 10,
+            "additional_configs": [],
+            "seed": 0
+        },
+        "random_design": {
+            "name": "ProbabilityRandomDesign",
+            "seed": 0,
+            "probability": 0.5
+        },
+        "runhistory_encoder": {
+            "name": "RunHistoryEncoder",
+            "considered_states": [
+                1,
+                2,
+                4
+            ],
+            "lower_budget_states": [],
+            "scale_percentage": 5,
+            "seed": 0
+        },
+        "multi_objective_algorithm": null,
+        "config_selector": {
+            "name": "ConfigSelector",
+            "retrain_after": 8,
+            "retries": 16,
+            "min_trials": 1
+        },
+        "version": "2.0.2"
+    },
+    "output_directory": "smac3_output/c3bbf5041effdb3c435f1424294b3103/0"
+}

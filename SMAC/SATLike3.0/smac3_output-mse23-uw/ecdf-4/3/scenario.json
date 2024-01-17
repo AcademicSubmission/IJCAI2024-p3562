@@ -1,0 +1,177 @@
+{
+    "name": "3019ea04577e99d27860e6f27e55512f",
+    "deterministic": true,
+    "objectives": "cost",
+    "crash_cost": Infinity,
+    "termination_cost_threshold": Infinity,
+    "walltime_limit": Infinity,
+    "cputime_limit": 60000,
+    "trial_walltime_limit": null,
+    "trial_memory_limit": null,
+    "n_trials": 1000,
+    "use_default_config": false,
+    "instances": [
+        "/the/path/of/maxsat/ins/mse23-uw-new/judgment-aggregation-ja-slater-preflib-00049-00000451.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/logic-synthesis-normalized-test4.pi.opb.msat.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/xai-mindset2-cleve.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/treewidth-computation-TWComp_eil51.tsp_N51.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/gen-hyper-tw-GenHyperTW_b01.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/inconsistency-measurement-im-contension-B-3-stb_696_368.tgf.pl.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/optimizing-BDDs-lymph-un-wcnf_incomplete_improved_1_2019_7.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/setcover-sts-data.135.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/judgment-aggregation-ja-maxham-preflib-00049-00000486.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/xai-mindset2-bupa.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/optimizing-BDDs-breast-cancer-un-wcnf_incomplete_improved_1_2019_7.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/aes-mul_8_11.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/setcover-sts-data.243.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/scheduling-cnf_small.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/min-fill-MinFill_R0_myciel7.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/aes-mul_8_9.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/inconsistency-measurement-im-hit-A-2-grd_1948_5_1.tgf.pl.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/scheduling-cnf_12.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/aes-mul_8_13.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_tree.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/gen-hyper-tw-GenHyperTW_s208.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/reversi-rev66-28.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/ramsey-ram_k4_n18.ra0.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/min-fill-MinFill_R4_miles500.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/planning-bnn-navigation_5x5_10.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/inconsistency-measurement-im-hit-B-1-grd_3018_3_7.tgf.pl.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/judgment-aggregation-ja-maxham-preflib-00049-00000260.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/MaxSATQueriesinInterpretableClassifiers-twitter_train_2_CNF_4_1.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/gen-hyper-tw-GenHyperTW_aim-50-1_6-yes1-3.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/inconsistency-measurement-im-forgetting-T-2-stb_339_81.tgf.pl.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/scheduling-cnf_10.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/inconsistency-measurement-im-hit-A-1-grd_2065_1_8.tgf.pl.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/atcoss-atcoss_mesat_02.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/min-fill-MinFill_R3_miles1000.wcnf",
+        "/the/path/of/maxsat/ins/mse23-uw-new/railway-transport-pesp_18Min.wcnf"
+    ],
+    "instance_features": null,
+    "min_budget": null,
+    "max_budget": null,
+    "seed": 3,
+    "n_workers": 1,
+    "_meta": {
+        "facade": {
+            "name": "AlgorithmConfigurationFacade"
+        },
+        "runner": {
+            "name": "TargetFunctionRunner",
+            "code": "b'\\x97\\x00t\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00|\\x01|\\x02|\\x03\\xa6\\x03\\x00\\x00\\xab\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00}\\x04|\\x04S\\x00'"
+        },
+        "model": {
+            "name": "RandomForest",
+            "types": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "bounds": [
+                [
+                    0,
+                    1.0
+                ],
+                [
+                    0,
+                    1.0
+                ],
+                [
+                    0,
+                    1.0
+                ],
+                [
+                    0,
+                    1.0
+                ]
+            ],
+            "pca_components": 4,
+            "n_trees": 10,
+            "n_points_per_tree": -1,
+            "ratio_features": 0.8333333333333334,
+            "min_samples_split": 3,
+            "min_samples_leaf": 3,
+            "max_depth": 20,
+            "eps_purity": 1e-08,
+            "max_nodes": 1048576,
+            "bootstrapping": true
+        },
+        "acquisition_maximizer": {
+            "name": "LocalAndSortedRandomSearch",
+            "acquisition_function": {
+                "name": "EI",
+                "xi": 0.0,
+                "log": false
+            },
+            "challengers": 5000,
+            "seed": 3,
+            "random_search": {
+                "name": "RandomSearch",
+                "acquisition_function": {
+                    "name": "EI",
+                    "xi": 0.0,
+                    "log": false
+                },
+                "challengers": 5000,
+                "seed": 3
+            },
+            "local_search": {
+                "name": "LocalSearch",
+                "acquisition_function": {
+                    "name": "EI",
+                    "xi": 0.0,
+                    "log": false
+                },
+                "challengers": 5000,
+                "seed": 3,
+                "max_steps": null,
+                "n_steps_plateau_walk": 10,
+                "vectorization_min_obtain": 2,
+                "vectorization_max_obtain": 64
+            }
+        },
+        "acquisition_function": {
+            "name": "EI",
+            "xi": 0.0,
+            "log": false
+        },
+        "intensifier": {
+            "name": "Intensifier",
+            "max_incumbents": 10,
+            "seed": 3
+        },
+        "initial_design": {
+            "name": "DefaultInitialDesign",
+            "n_configs": 40,
+            "n_configs_per_hyperparameter": 10,
+            "additional_configs": [],
+            "seed": 3
+        },
+        "random_design": {
+            "name": "ProbabilityRandomDesign",
+            "seed": 3,
+            "probability": 0.5
+        },
+        "runhistory_encoder": {
+            "name": "RunHistoryEncoder",
+            "considered_states": [
+                1,
+                2,
+                4
+            ],
+            "lower_budget_states": [],
+            "scale_percentage": 5,
+            "seed": 3
+        },
+        "multi_objective_algorithm": null,
+        "config_selector": {
+            "name": "ConfigSelector",
+            "retrain_after": 8,
+            "retries": 16,
+            "min_trials": 1
+        },
+        "version": "2.0.2"
+    },
+    "output_directory": "smac3_output/3019ea04577e99d27860e6f27e55512f/3"
+}

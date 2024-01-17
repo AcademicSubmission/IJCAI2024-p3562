@@ -1,0 +1,44 @@
+{
+  "hyperparameters": [
+    {
+      "name": "bms_num",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 10,
+      "upper": 100,
+      "default": 55,
+      "q": null
+    },
+    {
+      "name": "h_inc",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 1.0,
+      "upper": 500.0,
+      "default": 250.5,
+      "q": null
+    },
+    {
+      "name": "hard_sp",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 1e-08,
+      "upper": 0.1,
+      "default": 0.050000005,
+      "q": null
+    },
+    {
+      "name": "soft_weight_threshold",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 100.0,
+      "upper": 1000.0,
+      "default": 550.0,
+      "q": null
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}

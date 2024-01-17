@@ -1,0 +1,3 @@
+BandMaxSAT: basis_pms.h build.h pms.h heuristic.h pms.cpp	
+	g++   -std=c++17 pms.cpp  -O3  -o BandMaxSAT-best-f
+	rm -f *~
